@@ -1,0 +1,45 @@
+<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #8b9292;
+        }
+        header {
+            background-color: #d7dadd;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: #808f45;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: #fff8f8;
+            font-weight: bold;
+            margin-right: 1000px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #334653;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: #334653;
+        }
+        article > aside {
+            background-color: #8b9292;
+        }
+        footer {
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            background-color: #769696;
+            color: #000000
+        }
+      section {
+        background-color: #d7dadd;
+      }
+    </style>

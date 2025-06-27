@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #8b9292;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  header {
+    background-color: #d7dadd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: #6e813a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
+    margin: 0 10px;
+  }
+
+  nav > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #7b8f4e;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  nav > a:hover {
+    background-color: #91a75c;
+    text-decoration: underline;
+    transform: scale(1.05);
+  }
+
+  main {
+    background-color: #334653;
+    color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+
+  article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #3e5666;
+    border-radius: 8px;
+  }
+
+  article > aside {
+    background-color: #9ca6a6;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: #2c2c2c;
+  }
+
+  section {
+    background-color: #0c1f31;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #769696;
+    color: #000;
+    border-radius: 8px;
+    font-size: 0.9em;
+  }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+ <main>
+        <section id="assuntos">
+            <p> Avanço da Tecnologia no Brasil</p>
+        </section>
+        <section id="noticias">
+            <p> Faculdades EAD</p>
+            <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima optio quaerat dolorem vitae. Autem ea nemo sed dignissimos. Aspernatur eos dolorem saepe asperiores placeat facere nisi ducimus necessitatibus cumque!</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por Mario Bezerra</p>
+                </aside>
+            </article>
+        </section>
+ </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemVideo</p>
+    </footer>
+</body>
+</html>
