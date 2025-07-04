@@ -1,0 +1,24 @@
+
+
+<style>
+@font-face {
+font-family: '*****';
+src: url('love larry.otf') format
+('opentype'), url('love larry.ttf')
+format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+</style>
+
+
+
+
+
+FONTES EXTERNAS
+Tipos de format ()
+-opentype otf
+-truetype ttf
+-embbed opentype
+-truetype aat apple advanced typography
+svg
