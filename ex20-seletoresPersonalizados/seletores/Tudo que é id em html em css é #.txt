@@ -1,2 +1,0 @@
-Tudo que é id em html em css é #
-Tudo que é class em css é .
