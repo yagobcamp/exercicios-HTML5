@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas semanticas</title>
+    <title>Mesclagem de tabelas</title>
     <style>
         body, h1 {
             font-family:Arial, Helvetica, sans-serif;
@@ -12,42 +12,21 @@
 
         table {
             width: 500px;
-            border-collapse: collapse;
-        }
-
-        td, th {
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        caption {
-            font-size: 1.5em;
-            font-weight: bold;
-            padding: 10px;
-            background-color: white;
         }
 
         td {
-            text-align: left;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
         }
-
-        td.num {
-            text-align: right;
-        }
-
         thead,tfoot {
             background-color: #a7a1a1;
             color: white;
         }
-        
-        div > table {
-            background-color: #b7e9e1;
-            margin: auto;
-        }
     </style>
 </head>
 <body>
-    <h1>Uso de tabelas semanticas</h1>
+    <h1>Mesclagem de tabelas</h1>
     <!--
     ANATOMIA P/ TABELAS GRANDES 
     TABLE
@@ -58,48 +37,34 @@
         TFOOT
             TR, TDF, TH
     -->
-            <div class="center">
     <table>
-        <caption>População das Unidades Federativas</caption>
-        <thead>
             <tr>
-                <th>A</th>
-                <th>B</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+                <td rowspan="2">A</td>
+                <td>B</td>
                 <td>C</td>
-                <td>D</td>
             </tr>
             <tr>
-                <td>E</td>
-                <td>F</td>
+                <td colspan="4">E</td>
+            </tr>
+            <tr>
+                <td colspan="3">G</td>
             </tr>  
             <tr>
-                <td>G</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>H</td>
-                <td>I</td>
-            </tr>
-            <tr>
                 <td>J</td>
-                <td>K</td>
+                <td colspan="2">K</td>
             </tr>
             <tr>
-                <td>L</td>
                 <td>M</td>
+                <td>N</td>
+                <td rowspan="3">O</td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <th></th>
-                <th></th>
+                <td>P</td>
+                <td>Q</td>
             </tr>
-        </tfoot>
+            <tr>
+                <td>S</td>
+                <td>T</td>
     </table>
-    </div>
 </body>
 </html>
