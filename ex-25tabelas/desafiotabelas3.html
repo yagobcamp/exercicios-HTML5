@@ -13,7 +13,6 @@
 
         table {
             margin: auto;
-            text-align: center;
             width: 500px;
             height: 300px;
             border-collapse: collapse;
@@ -27,6 +26,11 @@
             background-color: #949191;
             color: white;
         }
+
+        th.esquerda {
+            text-align: left;
+        }
+
     </style>
 </head>
 <body>
@@ -74,8 +78,8 @@
                     <td>6.0</td>
                 </tr>
             <tr>
-                <th colspan="6">Médias de Exatas</th>
-                <td>6.0</td>
+                <th colspan="6" class="esquerda">Médias de Exatas</th>
+                <th>6.0</th>
             </tr>
             <tr>
                 <tr><td rowspan="3" colspan="3">Humanas</td></tr>
@@ -92,8 +96,8 @@
                     <td>6.0</td>
                 </tr>
             <tr>
-            <th colspan="6">Médias de Humanas</th>
-            <td>6.0</td>
+            <th colspan="6" class="esquerda">Médias de Humanas</th>
+            <th>6.0</th>
             </tr>
         </tbody>
     </table>
