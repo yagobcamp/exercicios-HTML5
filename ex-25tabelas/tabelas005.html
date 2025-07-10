@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="p-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            background-color: #e4bc8d;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            margin: auto;
+            background-color: white;
+            width: 350px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+
+            col.cnome {
+            background-color: yellow;
+        }
+        
+        col.cgrupo {
+            background-color: aquamarine;
+        }
+
+        col.ccidade {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="cgrupo" span="3">
+        <col class="ccidade">    
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Altura</th>
+            <th>Peso</th>
+            <th>Cidade</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>1.70</td>
+                <td>65kg</td>
+                <td>Vila Nova</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>28</td>
+                <td>1.60</td>
+                <td>48kg</td>
+                <td>Osasco</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>1.70</td>
+                <td>65kg</td>
+                <td>Vila Nova</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>1.70</td>
+                <td>65kg</td>
+                <td>Vila Nova</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>32</td>
+                <td>1.70</td>
+                <td>65kg</td>
+                <td>Vila Nova</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
