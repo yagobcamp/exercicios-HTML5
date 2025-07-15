@@ -19,6 +19,11 @@
             border: 2px solid black;
         }
 
+        srcdoc > img {
+            width: 10px;
+            height: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -38,7 +43,7 @@
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos saepe sint commodi ullam quo perferendis atque! Perspiciatis harum illum expedita inventore sunt consectetur, eos consequuntur quis, vero impedit, voluptas iusto?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt ipsum natus culpa assumenda similique, ipsam, modi veritatis tempora, autem laborum quibusdam sit fugiat ea voluptatem fuga odio doloribus sint!Lorem
     </p>
 
-    <iframe id="tela" name="frame" src="">
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha um link acima </h1> <p>Perspiciatis harum illum expedita inventore sunt consectetur, eos consequuntur quis, vero impedit, voluptas iusto?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt ipsum natus culpa assumenda similique, ipsam, modi veritatis tempora, autem laborum quibusdam sit fugiat ea voluptatem fuga odio doloribus sint!Lorem</p><img src='imagem/papeldeparedebit.png'>">
         <p>Infelizmente seu navegador não é compativel</p>
     </iframe>
 </body>
