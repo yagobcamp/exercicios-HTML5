@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+
+        h1 {
+            padding: 10px;
+            margin: auto;
+            display: block;
+            background-color: aquamarine;
+            color: brown;
+            width: 300px;
+            height: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            text-align: center;
+            padding: 20px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 5px 5px;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(231, 137, 137);
+            color: rgb(0, 0, 0);
+            box-shadow: 3px 3px black;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>
+        Meu Primeiro Formulário
+    </h1>
+        <form action="cadastro.php" autocomplete="off">
+            <p>
+                <label for="ilogin">Login:</label> <input type="text" name="login" id="ilogin">
+            </p>
+            <p>
+                <label for="isenha">Senha: </label><input type="text" name="senha" id="isenha">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </label>
 </body>
 </html>
