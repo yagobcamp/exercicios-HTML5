@@ -38,10 +38,6 @@ section.flex-content {
     flex-flow: column nowrap;
 }
 
-section > article {
-    
-}
-
 article.text-media {
     display: flex;
     flex-flow: row wrap;
@@ -71,8 +67,13 @@ div.media img {
     padding: 10px;
 }
 
+img {
+    border-radius: 50%;
+}
+
 div.media iframe {
     display: block;
     margin: auto;
     width: 95%;
+    border
 }
