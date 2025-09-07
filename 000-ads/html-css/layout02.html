@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propriedade box-sizing</title>
+    <style> 
+.teste1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+ 
+.teste2 {
+    width: 300px;
+    height: 100px;    
+    padding: 16px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    <div class="teste1">(div teste1) Eu tenho um tamanho de 300px de largura e 100px de altura</div>
+   <br>
+   <div class="teste2">(div teste2) Apesar de ter padding e border eu tenho o mesmo tamanho da div teste 1</div>
+</body>
+</html>
