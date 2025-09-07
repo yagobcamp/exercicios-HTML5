@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarnsition</title>
+    <style>
+      div {
+        background-color: rgb(89, 89, 226);
+      }
+            /* Elemento que vamos aplicar a transição */
+            img {
+                width: 300px;
+                height: 200px;
+                transition: width 2s, height 4s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
+                }
+            /* elemento img com o estado hover - mouse sobre - que ativará a transição até 600px  de largura e 300px de altura*/ 
+            img:hover
+                {  
+                width: 600px;
+                height: 300px;
+                }
+ 
+        </style>
+</head>
+<body>
+    <div><img src="exemplo.jpg" alt="exemplo de imagem"></div>
+</body>
+</html>
