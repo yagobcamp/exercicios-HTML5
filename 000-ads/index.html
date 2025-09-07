@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+    <style>
+        /* Código da animação */
+            @keyframes teste { /* criação do @keyframes com nome teste */
+                    from {background-color: #00F;float: left;}/* início da animação */
+                    to {background-color: #F00;float:right;}/* fim  da animação */
+                    }
+ 
+        /* Elemento que vamos aplicar a animação */
+            div {
+                    width: 300px;
+                    height: 200px;
+                    background-color: #00F;
+                    animation-name: teste;/* vinculação ao @keyframes pelo nome */
+                    animation-duration: 10s;/* tempo da animação */
+                    border-radius: 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: justify;
+                    text-indent: 15px;
+                    margin: auto;
+                    padding: 3px;
+                    height: 150px;
+                }
+
+                p {
+                    color: white;
+                }
+        </style>
+</head>
+<body>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque libero laboriosam magnam reiciendis repellat repellendus omnis magni nobis aspernatur cupiditate culpa id vitae sit, eum placeat obcaecati hic soluta praesentium.</p>
+    </div>
+</body>
+</html>
